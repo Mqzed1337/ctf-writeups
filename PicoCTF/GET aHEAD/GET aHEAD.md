@@ -14,3 +14,5 @@ I used Google Chrome's Developer tools to extract the web request, and imported 
 After going through every request type listed by default in insomnia, the HEAD request resulted in no body returned from the request, however after looking in the headings, the flag was revealed: 
 
 >! 	picoCTF{r3j3ct_th3_du4l1ty_82880908}
+
+Brute forcing was not neccessary as HEAD was highlighted in the problem name, and could have been jumped to from there.
